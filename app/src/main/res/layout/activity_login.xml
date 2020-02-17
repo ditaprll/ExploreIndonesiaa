@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Login">
 
     <TextView
         android:id="@+id/textView"
@@ -58,6 +58,7 @@
         android:background="@android:color/holo_blue_dark"
         android:soundEffectsEnabled="true"
         android:text="Login "
+        android:onClick="Loginn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,6 +95,7 @@
         android:layout_marginBottom="164dp"
         android:background="@color/colorPrimary"
         android:text="Login with Facebook"
+        android:onClick="LoginFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.558"
@@ -106,6 +108,7 @@
         android:layout_marginBottom="96dp"
         android:background="@android:color/holo_green_light"
         android:text="Login with Gmail"
+        android:onClick="LoginGmail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.57"

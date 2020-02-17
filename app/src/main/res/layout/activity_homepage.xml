@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:text="Login"
+        android:onClick="bttnLogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
@@ -23,7 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="540dp"
         android:text="Register"
+        android:onClick="bttnRegist"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
