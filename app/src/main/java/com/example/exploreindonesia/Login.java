@@ -23,5 +23,6 @@ public class Login extends AppCompatActivity {
     }
 
     public void LoginGmail(View view) {
+
     }
 }

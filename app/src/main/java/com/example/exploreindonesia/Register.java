@@ -2,6 +2,7 @@ package com.example.exploreindonesia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 public class Register extends AppCompatActivity {
@@ -11,4 +12,7 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
     }
+
+    Intent intent = new Intent(this, Login.class);
+    
 }
