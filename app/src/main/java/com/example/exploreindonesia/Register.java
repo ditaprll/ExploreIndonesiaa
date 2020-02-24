@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 public class Register extends AppCompatActivity {
 
@@ -14,8 +13,6 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
     }
 
-    public void Registt(View view) {
-        Intent i = new Intent(Register.this,homepage.class);
-        startActivity(i);
-    }
+    Intent intent = new Intent(this, Login.class);
+    
 }
