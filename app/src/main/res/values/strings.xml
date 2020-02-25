@@ -9,4 +9,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="text_view">Kawah Putih</string>
+    <string name="text_view2">Bandung - Jawa Barat</string>
+    <string name="button_WL">Detail</string>
+    <string name="text_view1">Farmhouse</string>
+    <string name="text_view4">Bandung - Jawa Barat</string>
 </resources>
