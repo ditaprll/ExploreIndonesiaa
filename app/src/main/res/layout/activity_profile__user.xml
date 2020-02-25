@@ -14,12 +14,15 @@
         android:layout_marginLeft="148dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
-        android:text="Log Out"
         android:onClick="Log_out"
+        android:text="Log Out"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintVertical_bias="0.85" />
 
     <TextView
         android:id="@+id/nama_user"
@@ -28,7 +31,9 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09" />
+        app:layout_constraintVertical_bias="0.095" />
 </androidx.constraintlayout.widget.ConstraintLayout>
