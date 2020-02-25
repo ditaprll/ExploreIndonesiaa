@@ -7,13 +7,14 @@
     tools:context=".Profile_User">
 
     <Button
-        android:id="@+id/button_Log Out"
+        android:id="@+id/button_LogOut"
         android:layout_width="159dp"
         android:layout_height="57dp"
         android:layout_marginStart="148dp"
         android:layout_marginLeft="148dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
+        android:background="@drawable/button_logout"
         android:onClick="Log_out"
         android:text="Log Out"
         android:textColor="@android:color/white"
