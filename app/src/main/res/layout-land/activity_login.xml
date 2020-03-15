@@ -89,7 +89,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/loginFB"
         android:layout_width="189dp"
         android:layout_height="49dp"
         android:layout_marginBottom="40dp"
@@ -102,7 +102,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/loginGmail"
         android:layout_width="168dp"
         android:layout_height="52dp"
         android:layout_marginBottom="40dp"
