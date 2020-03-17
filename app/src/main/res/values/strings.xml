@@ -17,4 +17,12 @@
     <string name="title_wishlist">Wishlist</string>
     <string name="title_acccount">Account</string>
     <string name="title_account">Account</string>
+    <string name="banten">Banten</string>
+    <string name="maluku">Maluku</string>
+    <string name="jawa_timur">Jawa_timur</string>
+    <string name="gorontalo">Gorontalo</string>
+    <string name="jawa_barat">Jawa_barat</string>
+    <string name="papua">Papua</string>
+    <string name="aceh">Aceh</string>
+    <string name="bali">Bali</string>
 </resources>

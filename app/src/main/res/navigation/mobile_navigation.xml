@@ -12,12 +12,6 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_explore"
-        android:name="com.example.exploreindonesia.ui.explore.ExploreFragment"
-        android:label="@string/title_explore"
-        tools:layout="@layout/fragment_explore" />
-
-    <fragment
         android:id="@+id/navigation_wishlist"
         android:name="com.example.exploreindonesia.ui.wishlist.WishlistFragment"
         android:label="@string/title_wishlist"
