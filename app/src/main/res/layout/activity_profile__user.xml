@@ -29,12 +29,28 @@
         android:id="@+id/nama_user"
         android:layout_width="243dp"
         android:layout_height="36dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.095" />
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="92dp"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+
+        android:layuout_width="124dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
