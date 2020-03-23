@@ -316,6 +316,42 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        riau = (RelativeLayout) rootView.findViewById(R.id.riau);
+        riau.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Toast.makeText(getActivity(), "klick me", Toast.LENGTH_LONG).show();
+
+                Intent goPindah;
+                goPindah = new Intent(getActivity(), com.example.exploreindonesia.riau.class);
+                startActivity(goPindah);
+            }
+        });
+
+        sulawesi_barat = (RelativeLayout) rootView.findViewById(R.id.sulawesi_barat);
+        sulawesi_barat.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Toast.makeText(getActivity(), "klick me", Toast.LENGTH_LONG).show();
+
+                Intent goPindah;
+                goPindah = new Intent(getActivity(), com.example.exploreindonesia.sulawesi_barat.class);
+                startActivity(goPindah);
+            }
+        });
+
+        sulawesi_selatan = (RelativeLayout) rootView.findViewById(R.id.sulawesi_selatan);
+        sulawesi_selatan.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Toast.makeText(getActivity(), "klick me", Toast.LENGTH_LONG).show();
+
+                Intent goPindah;
+                goPindah = new Intent(getActivity(), com.example.exploreindonesia.sulawesi_selatan.class);
+                startActivity(goPindah);
+            }
+        });
+
         return rootView;
     }
 }

@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".riau"/>
+        <activity android:name=".sulawesi_barat"/>
+        <activity android:name=".sulawesi_selatan"/>
         <activity android:name=".aceh"/>
         <activity android:name=".bali" />
         <activity android:name=".banten" />
