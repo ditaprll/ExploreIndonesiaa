@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/bttnRegist"
+        android:id="@+id/bttnSignUp"
         android:layout_width="177dp"
         android:layout_height="35dp"
         android:layout_alignParentStart="true"
@@ -58,6 +58,7 @@
         android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="monospace"
         android:text="Explore Indonesia"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
