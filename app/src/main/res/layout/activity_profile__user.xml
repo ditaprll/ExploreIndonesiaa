@@ -26,12 +26,12 @@
         app:layout_constraintVertical_bias="0.85" />
 
     <TextView
-        android:id="@+id/nama_user"
         android:layout_width="243dp"
         android:layout_height="36dp"
+        android:text="frisca@gmail.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.095" />
@@ -42,7 +42,7 @@
         android:layout_margin="5dp"
         android:adjustViewBounds="true"
 
-        android:layuout_width="124dp"
+
         android:scaleType="centerInside"
         android:src="@drawable/ic_user"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,6 +51,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="frisca febriani kurniawan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
