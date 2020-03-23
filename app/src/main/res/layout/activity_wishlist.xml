@@ -43,6 +43,8 @@
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:onClick="button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -59,6 +61,8 @@
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:onClick="button2"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
