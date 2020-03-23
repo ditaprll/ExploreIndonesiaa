@@ -1,192 +1,1098 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/cardview_dark_background">
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="55dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:text="@string/banten"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+    tools:context=".Home">
 
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="480dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/banten" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="320dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/maluku" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="220dp"
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="320dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/jawa_timur" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="220dp"
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="480dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/gorontalo" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="53dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginLeft="96dp"
-        android:text="@string/maluku"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
-        android:layout_marginRight="52dp"
-        android:text="@string/jawa_timur"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-        android:text="@string/gorontalo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
-
-    <TextView
-        android:id="@+id/text_home"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/papua" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/jawa_barat" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:background="#0E0D0D"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:text="@string/jawa_barat"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="68dp"
-        android:layout_marginRight="68dp"
-        android:text="@string/papua"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="164dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/aceh" />
+                        <RelativeLayout
+                            android:id="@+id/jawa_barat"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="10dp">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:text="@string/aceh"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+                            <ImageView
+                                android:id="@+id/image_jawa_barat"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="184dp"
-        android:layout_height="123dp"
-        android:layout_marginTop="164dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home"
-        app:srcCompat="@drawable/bali" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_jawa_barat"
+                                android:text="Jawa Barat" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
-        android:text="@string/bali"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
 
+                        <RelativeLayout
+                            android:id="@+id/aceh"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                            <ImageView
+                                android:id="@+id/imageview"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/aceh" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/imageview"
+                                android:text="@string/aceh" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/maluku"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_maluku"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/maluku" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_maluku"
+                                android:text="Maluku" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/banten"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_banten"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/bali" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_banten"
+                                android:text="Banten" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/bengkulu"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_bengkulu"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/bengkulu" />
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_bengkulu"
+                                android:text="Bengkulu" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/jakarta"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_jakarta"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jakarta" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="17dp"
+                                android:layout_toRightOf="@id/image_jakarta"
+                                android:text="Jakarta" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/jawa_tengah"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_jawa_tengah"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_tengah" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_jawa_tengah"
+                                android:text="Jawa Tengah" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kalimantan_barat"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_kalimantan_barat"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/kalimantan_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kalimantan_barat"
+                                android:text="Kalimantan Barat" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kalimantan_selatan"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_kalimantan_selatan"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/kalimantan_selatan" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kalimantan_selatan"
+                                android:text="Kalimantan Selatan" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kalimantan_tengah"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_kalimantan_tengah"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/kalimantan_tengah" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kalimantan_tengah"
+                                android:text="Kalimantan Tengah" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kalimantan_timur"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_kalimantan_timur"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/kalimantan_timur" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kalimantan_timur"
+                                android:text="Kalimantan Timur" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kalimantan_utara"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_kalimantan_utara"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/kalimantan_utara" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kalimantan_utara"
+                                android:text="Kalimantan Utara" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kepulauan_bangka_belitung"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_kepulauan_bangka_belitung"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/kepulauan_bangka_belitung" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kepulauan_bangka_belitung"
+                                android:text="Kepulauan Bangka Belitung" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kepulauan_riau"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_kepulauan_riau"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/kepulauan_riau" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kepulauan_riau"
+                                android:text="Kepulauan Riau" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/lampung"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_lampung"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/lampung" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_lampung"
+                                android:text="Lampung" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/maluku_utara"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_maluku_utara"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/maluku_utara" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_maluku_utara"
+                                android:text="Maluku Utara" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/jambi"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_jambi"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jambi" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_jambi"
+                                android:text="Jambi" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/papua"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_papua"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/papua" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_papua"
+                                android:text="Papua" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/bali"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_bali"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/bali" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_bali"
+                                android:text="Bali" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/jawa_timur"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_jawa_timur"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_timur" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_jawa_timur"
+                                android:text="Jawa Timur" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/gorontalo"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_gorontalo"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/gorontalo" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_gorontalo"
+                                android:text="Gorontalo" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/nusa_tenggara_timur"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_nusa_tenggara_timur"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/nusa_tenggara_timur" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_nusa_tenggara_timur"
+                                android:text="Nusa Tenggara Timur" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/papua_barat"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_papua_barat"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/papua_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_papua_barat"
+                                android:text="Papua Barat" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/riau"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_riau"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/riau" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_riau"
+                                android:text="Riau" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sulawesi_barat"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sulbar"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sulbar" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sulbar"
+                                android:text="Sulawesi Barat" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sulawesi_selatan"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sulawesi_selatan"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sulawesi_selatan" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sulawesi_selatan"
+                                android:text="Sulawesi Selatan" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sulawesi_tengah"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sulawesi_tengah"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sulawesi_tengah" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sulawesi_tengah"
+                                android:text="Sulawesi Tengah" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sulawesi_tenggara"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sulawesi_tenggara"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sulawesi_tenggara" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sulawesi_tenggara"
+                                android:text="Sulawesi Tenggara" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sulawesi_utara"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sulawesi_utara"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sulawesi_utara" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sulawesi_utara"
+                                android:text="Sulawesi Utara" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sumatera_barat"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sumatera_barat"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sumatera_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sumatera_barat"
+                                android:text="Sumatera Barat" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sumatera_selatan"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sumatera_selatan"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sumatera_selatan" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sumatera_selatan"
+                                android:text="Sumatera Selatan" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/sumatera_utara"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_sumatera_utara"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/sumatera_utara" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_sumatera_utara"
+                                android:text="Sumatera Utara" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/yogyakarta"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_yogyakarta"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/daerah_istimewa_yogyakarta" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_yogyakarta"
+                                android:text="Daerah Istimewa Yogyakarta" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/nusa_tenggara_barat"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_nusa_tenggara_barat"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/nusa_tenggara_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_nusa_tenggara_barat"
+                                android:text="Nusa Tenggara Barat" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
