@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "41581610441",
+    "firebase_url": "https://explore-indonesia-8a234.firebaseio.com",
+    "project_id": "explore-indonesia-8a234",
+    "storage_bucket": "explore-indonesia-8a234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41581610441:android:972a62aab77cda37fd1418",
+        "android_client_info": {
+          "package_name": "com.example.exploreindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41581610441-i2hr24l8hobp0hsb4sfqqqf9fs6lh69f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exploreindonesia",
+            "certificate_hash": "f159d364f9ab6d0166057d849932c54dff290281"
+          }
+        },
+        {
+          "client_id": "41581610441-3ckt38ga13hvmkjk4hiqmpfu5fb16q5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPxk0MiJRPqmEaZruyc4XPpyCDu3JPGMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41581610441-3ckt38ga13hvmkjk4hiqmpfu5fb16q5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
