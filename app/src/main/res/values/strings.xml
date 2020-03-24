@@ -9,4 +9,40 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="text_view">Kawah Putih</string>
+    <string name="text_view2">Bandung - Jawa Barat</string>
+    <string name="button_WL">Detail</string>
+    <string name="text_view1">Farmhouse</string>
+    <string name="text_view4">Bandung - Jawa Barat</string>
+    <string-array name="wishlist_array_Nama">
+        <item>Farmhouse</item>
+        <item>Kawah Putih</item>
+    </string-array>
+    <string-array name="wishlist_array_lokasi">
+        <item>Bandung - Jawa Barat</item>
+        <item>Bandung - Jawa Barat</item>
+    </string-array>
+    <string name="add_to_wishlist">Add to Wishlist</string>
+    <string name="location">Location</string>
+    <array name="list_wisata">
+        <item>@drawable/img_kawahputih</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="switch_summary">Trun this option on or off</string>
+    <string name="switch_title">settings option</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_wishlist">Wishlist</string>
+    <string name="title_acccount">Account</string>
+    <string name="title_account">Account</string>
+    <string name="banten">Banten</string>
+    <string name="maluku">Maluku</string>
+    <string name="jawa_timur">Jawa_timur</string>
+    <string name="gorontalo">Gorontalo</string>
+    <string name="jawa_barat">Jawa_barat</string>
+    <string name="papua">Papua</string>
+    <string name="aceh">Aceh</string>
+    <string name="bali">Bali</string>
 </resources>

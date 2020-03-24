@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
+//import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class Login extends AppCompatActivity {
@@ -17,6 +18,8 @@ public class Login extends AppCompatActivity {
     private String pass;
     private String email;
 
+//    private FirebaseAnalytics mFirebaseAnalytics;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +27,8 @@ public class Login extends AppCompatActivity {
 //        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         password = (EditText) findViewById(R.id.password);
         Email = (EditText) findViewById(R.id.email);
+
+//        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
     }
 
@@ -46,5 +51,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void LoginGmail(View view) {
+        Intent w = new Intent(Login.this,Wishlist.class);
+        startActivity(w);
     }
 }
