@@ -19,6 +19,7 @@ public class Login extends AppCompatActivity {
     private String email;
 
 //    private FirebaseAnalytics mFirebaseAnalytics;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,7 @@ public class Login extends AppCompatActivity {
         Email = (EditText) findViewById(R.id.email);
 
 //        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
     }
 
     public void Loginn(View view) {
