@@ -4,6 +4,6 @@
     <SwitchPreference
         android:defaultValue="true"
         android:key="example_switch"
-        android:summary="Trun this option on or off"
-        android:title="settings option" />
+        android:summary="@string/switch_summary"
+        android:title="@string/switch_title" />
 </PreferenceScreen>

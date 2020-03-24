@@ -12,5 +12,7 @@ public class settingsactivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction()
                 .replace(android.R.id.content, new settingsfragment())
                 .commit();
+
+
     }
 }
