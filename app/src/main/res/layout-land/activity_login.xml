@@ -14,20 +14,21 @@
         android:textColor="@android:color/holo_blue_light"
         android:textSize="24sp"
         android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="202dp"
         android:layout_height="42dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="116dp"
         android:ems="10"
         android:hint="Enter your Email"
         android:inputType="textPersonName"
@@ -45,81 +46,64 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.538" />
 
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="172dp"
         android:layout_height="44dp"
-        android:layout_marginTop="236dp"
-        android:background="#90EE90"
-        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="276dp"
         android:onClick="Loginn"
+        android:background="#90EE90"
         android:soundEffectsEnabled="true"
         android:text="Login "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="192dp"
+        android:layout_marginBottom="104dp"
+        android:background="#90EE90"
         android:text="Forgot Password?"
         android:textColor="@android:color/holo_blue_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="35dp"
-        android:layout_height="29dp"
-        android:layout_marginBottom="52dp"
-        android:text="OR"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
-        android:layout_marginBottom="88dp"
-        android:text="OR"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/loginFB"
         android:layout_width="189dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="40dp"
-        android:background="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
         android:background="#90EE90"
         android:onClick="LoginFB"
         android:text="Login with Facebook"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/loginGmail"
         android:layout_width="168dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="40dp"
-        android:background="@android:color/holo_green_light"
-        android:background="#90EE90"
+        android:layout_marginBottom="16dp"
         android:onClick="LoginGmail"
+        android:background="#90EE90"
         android:text="Login with Gmail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
