@@ -1,35 +1,30 @@
 package com.example.exploreindonesia;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-
-//import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.auth.FirebaseAuth;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Login extends AppCompatActivity {
-//    private FirebaseAnalytics mFirebaseAnalytics;
     private EditText password;
     private EditText Email;
     private String pass;
     private String email;
-
-//    private FirebaseAnalytics mFirebaseAnalytics;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-//        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         password = (EditText) findViewById(R.id.password);
         Email = (EditText) findViewById(R.id.email);
-
-//        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-
+        mAuth = FirebaseAuth.getInstance();
+        
     }
 
     public void Loginn(View view) {
