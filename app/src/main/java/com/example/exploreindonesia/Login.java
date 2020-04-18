@@ -76,6 +76,19 @@ public class Login extends AppCompatActivity {
         }
     }
 
+    private void handleSignInResult(com.google.android.gms.tasks.Task<GoogleSignInAccount> completedTask){
+        try {
+            GoogleSignInAccount acc = completedTask.getResult(ApiException.class);
+            Toast.makeText(Login.this, "Signed In Successfully", Toast.LENGTH_LONG).show();
+            FirebaseGoogleAuth(acc);
+            Intent intent = new Intent(this, Home.class);
+            startActivity(intent);
+        }
+        catch (ApiException e){
+            Toast.makeText(Login.this, "Signed In Unsuccessfully", Toast.LENGTH_LONG).show();
+            FirebaseGoogleAuth(null);
+        }
+    }
     private void FirebaseGoogleAuth(GoogleSignInAccount acct){
         AuthCredential authCredential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         mAuth.signInWithCredential(authCredential).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
