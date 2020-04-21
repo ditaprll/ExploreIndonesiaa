@@ -117,7 +117,7 @@ public class Login extends AppCompatActivity {
 
         if((pass.equals("12345")) && (email.equalsIgnoreCase("123@gmail.com"))){
             Log.d("Login sukses", "Cus");
-            Intent i = new Intent(Login.this,Register.class);
+            Intent i = new Intent(Login.this,Home.class);
             startActivity(i);
         }else{
             Intent i = new Intent(this,Login.class);
@@ -126,13 +126,8 @@ public class Login extends AppCompatActivity {
     }
 
     public void LoginFB(View view) {
-        Intent intent = new Intent(this, SubmitReview.class);
+        Intent intent = new Intent(this, Review.class);
         intent.putExtra("idWisata", "2");
         startActivity(intent);
-    }
-
-    public void LoginGmail(View view) {
-        Intent w = new Intent(Login.this,Wishlist.class);
-        startActivity(w);
     }
 }

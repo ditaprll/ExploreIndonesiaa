@@ -81,7 +81,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/loginFB"
+        android:id="@+id/LoginFB"
         android:layout_width="189dp"
         android:layout_height="49dp"
         android:layout_marginBottom="16dp"
@@ -93,13 +93,12 @@
         app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <com.google.android.gms.common.SignInButton
         android:id="@+id/loginGmail"
         android:layout_width="168dp"
         android:layout_height="52dp"
         android:layout_marginBottom="16dp"
         android:onClick="LoginGmail"
-        android:background="#90EE90"
         android:text="Login with Gmail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

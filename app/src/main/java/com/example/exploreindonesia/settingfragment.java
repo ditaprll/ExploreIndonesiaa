@@ -15,18 +15,16 @@ import android.widget.TextView;
  */
 public class settingfragment extends PreferenceFragmentCompat {
 
-
-
-
-
-    @Override
-    public View onCreatePreferences(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        TextView textView = new TextView(getActivity());
-        textView.setText(R.string.hello_blank_fragment);
-        setPreferencesFromResource(R.xml.preferences, rootKey);
-        return textView;
-
-    }
-
+//    public View onCreatePreferences(LayoutInflater inflater, ViewGroup container,
+//                                    Bundle savedInstanceState) {
+////        TextView textView = new TextView(getActivity());
+////        textView.setText(R.string.hello_blank_fragment);
+////        setPreferencesFromResource(R.xml.preferences, rootKey);
+////        return textView;
+//
+////    }
+//
+//
+//    }
 }
+

@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.exploreindonesia">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_app_id" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,19 +15,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".homepage" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+        <activity android:name=".ShowReview"></activity>
+        <activity android:name=".ShowRatingAll" />
+        <activity android:name=".ThankiesReview" />
+        <activity android:name=".list_review" />
+        <activity android:name=".DetailReview" />
+        <activity android:name=".SubmitReview" />
+        <activity android:name=".Review" />
+        <activity android:name=".homepage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Register" />
-        <activity android:name=".Login"></activity>
-        <activity android:name=".Wishlist"></activity>
-        <activity android:name=".riau"/>
-        <activity android:name=".sulawesi_barat"/>
-        <activity android:name=".sulawesi_selatan"/>
-        <activity android:name=".aceh"/>
+        <activity android:name=".Login" />
+        <activity android:name=".Wishlist" />
+        <activity android:name=".riau" />
+        <activity android:name=".sulawesi_barat" />
+        <activity android:name=".sulawesi_selatan" />
+        <activity android:name=".aceh" />
+        <activity android:name=".Home" />
         <activity android:name=".bali" />
         <activity android:name=".banten" />
         <activity android:name=".bengkulu" />
@@ -46,6 +61,27 @@
         <activity android:name=".papua_barat" />
         <activity android:name=".kalimantan_selatan" />
         <activity android:name=".settingsactivity" />
-        <activity android:name=".Profile_User"/>
-        </application>
+        <activity android:name=".Profile_User" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
 </manifest>

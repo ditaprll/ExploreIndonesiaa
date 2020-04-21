@@ -15,12 +15,12 @@ public class homepage extends AppCompatActivity {
     }
 
     public void bttnLogin(View view) {
-        Intent intent = new Intent(this, Search.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 
     public void bttnRegist(View view) {
-        Intent intent = new Intent(this, Informasi.class);
+        Intent intent = new Intent(this, Register.class);
         startActivity(intent);
     }
 }
