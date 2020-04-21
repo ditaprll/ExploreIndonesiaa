@@ -1,5 +1,6 @@
 package com.example.exploreindonesia;
 
+import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,8 +33,9 @@ public class RatingAdapter extends RecyclerView.Adapter<RatingAdapter.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 //        Float rating = cr.get(position).getRating();
         CommentReview commentReview = cr.get(position);
-//        holder.tvRating.setText(String.valueOf(commentReview.getRating()));
-        holder.tvId.setText(commentReview.getId());
+////        holder.tvRating.setText(String.valueOf(commentReview.getRating()));
+//        holder.tvId.setText(commentReview.getId());
+        ((ViewHolder) holder).bind(commentReview);
     }
 
     @Override
