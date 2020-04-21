@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "41581610441-2h0o1stqouvrqjuc6vskssr2r64bhh4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exploreindonesia",
+            "certificate_hash": "d3bab4936fa5684706a33053bd668a59fde5f7d9"
+          }
+        },
+        {
           "client_id": "41581610441-i2hr24l8hobp0hsb4sfqqqf9fs6lh69f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

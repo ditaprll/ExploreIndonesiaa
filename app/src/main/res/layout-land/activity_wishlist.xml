@@ -39,6 +39,7 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/ovalbutton"
         android:text="@string/button_WL"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,8 +54,9 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/ovalbutton"
         android:text="@string/button_WL"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 

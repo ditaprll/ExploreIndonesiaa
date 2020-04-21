@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:background="#062727"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/kawah_putih"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/image_kawah_putih"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_kawah_putih"
+                                android:text="Kawah Putih"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/pantai_pangandaran"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_pantai_pangandaran"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_pantai_pangandaran"
+                                android:text="pantai pangandaran"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/curuh_cikaso"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_curuh_cikaso"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_curuh_cikaso"
+                                android:text="curuh cikaso"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginRight="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/De_Ranch"
+                            android:layout_width="match_parent"
+                            android:layout_height="88dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_De_Ranch"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_De_Ranch"
+                                android:text="De'Ranch"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/dusun_bambu"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_dusun_bambu"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_dusun_bambu"
+                                android:text="dusun bambu"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/green_canyon"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_green_canyon"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_green_canyon"
+                                android:text="green canyon"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/gedung_sate"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_gedung_sate"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_gedung_sate"
+                                android:text="gedung sate"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp">
+
+                        <RelativeLayout
+                            android:id="@+id/curug_cimahi"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:padding="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_curug_cimahi"
+                                android:layout_width="69dp"
+                                android:layout_height="190dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginBottom="-5dp"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/jawa_barat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/image_curug_cimahi"
+                                android:text="curug cimahi"
+                                android:textSize="10sp"
+                                android:textStyle="normal|bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
