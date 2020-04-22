@@ -13,11 +13,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class RatingAdapter extends RecyclerView.Adapter<RatingAdapter.ViewHolder>{
+public class RatingAdapter extends RecyclerView.Adapter<RatingAdapter.ViewHolder> {
     ArrayList<CommentReview> cr = new ArrayList<>();
 
     public void setCr(ArrayList<CommentReview> cr) {
-        cr.clear();
+        this.cr.clear(); // disini masalahnya, cr nya nge refer ke method argument bukan ke property
         this.cr = cr;
         notifyDataSetChanged();
     }
@@ -53,9 +53,9 @@ public class RatingAdapter extends RecyclerView.Adapter<RatingAdapter.ViewHolder
             tvId = itemView.findViewById(R.id.tv_id);
         }
 
-        public void bind (CommentReview cr) {
+        public void bind(CommentReview cr) {
             Float rating = cr.getRating();
-            tvRating.setText(""+rating);
+            tvRating.setText("" + rating);
             tvId.setText(cr.getId());
         }
 
